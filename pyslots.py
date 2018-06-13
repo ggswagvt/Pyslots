@@ -35,7 +35,7 @@ def doslotHard():
 	slot3 = random.randint(0, 5)
 	checkWin()
 def mainMenu():
-	print("Welcome to Asa's Slots!")
+	print("Welcome to Asa and Gus' Slots!")
 	sleep(0.5)
 	print("Lets pay! err.. Play! ..heh heh..")
 	print("|||MAIN) MENU|||")
@@ -50,8 +50,8 @@ def mainMenu():
 			sleep(0.7)
 			doslotMedium()
 		if difficulty == 3:
-			print("Oh, a hardcore player, good luck!")
+			print("Oh, a hardcore player eh?, good luck!")
 			doslotHard()
 	if menuSelect == 2:
-		difficulty = input("Please enter youe desired difficulty level from 1 to 3 with 3 being the harders and 1 being the easiest")
+		difficulty = input("Please enter your desired difficulty level from 1 to 3 with 3 being the harders and 1 being the easiest")
 		mainMenu()
